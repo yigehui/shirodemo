@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+</head>
+<body>
+    <h3 th:text="${user}">Login html111</h3>
+    <p  th:text="${test}"></p>
+    <a href="/logout">退出登录</a>
+    <br>
+    <!--只有admin才能访问-->
+    <a href="/edit">编辑页面</a>
+</body>
+</html>
